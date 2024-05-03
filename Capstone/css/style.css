@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+body {
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: #2e2e2e;
+    line-height: 1.6;
+    max-height: 100vh;
+}
+
+#showcase {
+    background-image: url('../imgs/webpageImgs/index/NCWimg3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-image: url('../imgs/webpageImgs/index/NCWimg.jpg');
+    }
+    33.33%{
+        background-image: url('../imgs/webpageImgs/index/NCWimg2.jpg');
+    }
+    66.66%{
+        background-image: url('../imgs/webpageImgs/index/NCWimg3.jpg');
+    }
+    100%{
+        background-image: url('../imgs/webpageImgs/index/NCWimg4.jpg');
+    }
+}
+
+
+#inside {
+    background-color: #2e2e2e4b;
+    text-align: center;
+    padding: 20px;
+    border-radius: 1px; 
+     text-shadow: 3px 2px #2e2e2e;
+}
+
+#showcase h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120px;
+}
+
+#showcase p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color:#fff;
+    border:#fff 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #2e2e2e4b;
+}
+
+#showcase .button:hover {
+    background-color: #ffffffe0;
+    color: #111111;
+    border-color:rgba(177, 177, 177, 0.418);
+}
+
+#section-a p {
+    padding-top: -80px;
+    color:#fff;
+    background-color: rgb(177, 177, 177);
+}

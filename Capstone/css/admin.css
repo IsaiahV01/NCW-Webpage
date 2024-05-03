@@ -1,0 +1,10 @@
+.objects{
+justify-content: center;
+align-items: center;
+display: grid;
+}
+
+
+img {
+    max-width: 400px;
+}

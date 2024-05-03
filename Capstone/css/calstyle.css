@@ -1,0 +1,169 @@
+
+#inside {
+    color: #2e2e2e;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+#inside h1 {
+    font-size: 75px
+}
+#inside p {
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap";
+
+:root {
+  --color: rgb(255, 255, 255);
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('../imgs/webpageImgs/calendar/calMain.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.page {
+    z-index: 1;
+}
+.parallax-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-image: url('../imgs/webpageImgs/calendar/calMain.jpg');
+    background-position: center;
+    background-size: cover;
+    color: rgb(177, 177, 177);
+    row-gap: 4rem;
+
+    text-align: center;
+}
+
+.buffer {
+    width: 100%;
+    min-height: 10vh;
+    background-color: var(--color);
+    display: flex;
+    justify-content: center;
+}
+
+#backToTop {
+    display: inline-block;
+    border-color: #fff;
+    padding-top: 45px;
+}
+#backToTop:hover {
+    color: #2e2e2e;
+    background-color: #fff;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.parallax-container2 {
+    flex-direction: grid;
+    flex-wrap: wrap;
+
+    padding: 6rem 0;
+    background-image: url('../imgs/webpageImgs/calendar/calWedding.jpg');
+    gap: 1.6em;
+}
+
+.parallax-container3 {
+    flex-direction: grid;
+    flex-wrap: wrap;
+
+    padding: 6rem 0;
+    background-image: url('../imgs/webpageImgs/calendar/calWine.jpg');
+    gap: 1.6em;
+}
+
+.parallax-container4 {
+    flex-direction: grid;
+    flex-wrap: wrap;
+
+    padding: 6rem 0;
+    background-image: url('../imgs/webpageImgs/calendar/calPrivateEvent.jpg');
+    background-size: 100%;
+    gap: 1.6em;
+}
+
+.page h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.page p {
+    max-width: 52ch;
+    padding: 1em;
+    line-height: 1.5;
+}
+
+.page a {
+    display: inline-block;
+    padding: 1em 3.5em;
+    border: rgb(177, 177, 177) 1px solid;
+    border-radius: 0.3em;
+    background-color: var(--color);
+    color: rgb(177, 177, 177);
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    
+}
+.page a:hover {
+    background-color: rgb(177, 177, 177);
+    color:#fff;
+    border-color: #fff;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+.page h3 {
+    margin-top: 1em;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.card {
+    display: inline;
+    max-width: 320px;
+    min-width: 320px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #2e2e2e;
+    padding-bottom: 1rem;
+    border-radius: 0.5em;
+
+    background-color: white;
+    box-shadow: 0 29px 38px -15px rgb(0 0 0 / 43%);
+}
+
+.card-img {
+    width: 100%;
+    height: 250px;
+    border-radius: 0.3em;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-img h2 {
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
